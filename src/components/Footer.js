@@ -96,8 +96,8 @@ const Footer = () => {
             {/* Contact */}
             <Col xs={12} md={4}>
               <h5>Contact</h5>
-              <p>Email: <a href="mailto:nyaburu@example.com">nyaburu@example.com</a></p>
-              <p>Phone: +256 700 123 456</p>
+              <p>Email: <a href="mailto:danielamargret6@gamil.com">danielamargret6@gamil.com</a></p>
+              <p>Phone: +256767724297</p>
               <p>Kampala, Uganda</p>
             </Col>
 
