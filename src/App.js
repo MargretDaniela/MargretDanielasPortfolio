@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import Footer from "./components/Footer"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/skills" element={<Skills/> } />
           <Route path="/projects" element={<Projects/> }/>
           <Route path="/contact" element={<Contact />} />
+          <Route path="/footer" element={<Footer/>} />
         </Routes>
       </div>
     </Router>

@@ -7,6 +7,7 @@ import About from "./About";
 import Skills from "./Skills";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 const Home = () => {
   const CustomTypewriter = ({ text }) => {
@@ -96,6 +97,9 @@ const Home = () => {
 
       <section id="contact" className="py-5">
         <Contact />
+      </section>
+      <section id="footer" className="py-5">
+        <Footer />
       </section>
     </div>
   );

@@ -7,7 +7,6 @@ import {
   FaInstagram,
   FaEnvelope,
 } from "react-icons/fa";
-
 const Contact = () => {
   const [name, setName] = useState("");
   const [message, setMessage] = useState("");

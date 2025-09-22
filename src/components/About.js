@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import pic5 from "../images/pic5.jpeg";
-
 const About = () => (
   <Container className="min-vh-80 d-flex align-items-center justify-content-center p-2">
     <style>
@@ -44,7 +43,7 @@ const About = () => (
       {/* Text Section */}
       <Col xs={12} md={6} className="text-left mb-4 mb-md-0">
         <h2 className="about-heading">About Me</h2>
-        <p className="mt-2" style={{ color: "#8B4513", fontSize: "25px" }}>
+        <p className="mt-2" style={{ color: "#8B4513", fontSize: "15px" }}>
           I am Nyaburu Margret Daniela, a passionate and dedicated aspiring Full
           Stack Developer and Data Analyst. I have a strong foundation in both
           front-end and back-end technologies, with a keen interest in creating
@@ -67,6 +66,7 @@ const About = () => (
       </Col>
     </Row>
   </Container>
+  
 );
 
 export default About;
