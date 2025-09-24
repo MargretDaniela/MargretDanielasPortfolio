@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Button, Card, img} from "react-bootstrap";
+import { Container, Row, Col, Button, Card} from "react-bootstrap";
 import HomePage from "../images/HomeImage.jpeg"
 import MyPortfolio from "../images/MyPortfolios.jpeg"
 import book from "../images/Book.jpeg"
@@ -18,7 +18,7 @@ const Projects = () => {
       title: "My Portfolio",
       description: "A showcase of my journey as a developer — blending creativity, problem-solving, and technology into real-world projects.",
       img: MyPortfolio,
-      link: "https://github.com/yourusername/ecommerce-app",
+      link: "https://margret-danielas-portfolio.vercel.app/",
     },
     {
       id: 3,
